@@ -1,4 +1,4 @@
-ocker compose down
+docker compose down
 
 sudo docker compose pull
 
