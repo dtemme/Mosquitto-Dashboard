@@ -1,0 +1,7 @@
+services:
+  mosquitto-dashboard:
+    container_name: mosquitto-dashboard
+    restart: unless-stopped
+    build: .
+    ports:
+      - 8088:80
