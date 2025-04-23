@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY MosquittoDashboard /usr/share/nginx/html/
+COPY src /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
